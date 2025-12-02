@@ -1,0 +1,100 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+
+}
+
+#Flags {
+    width: 100vw;
+    height: 300px;
+    background-color: rgb(130, 121, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+
+.flag {
+width: 120px;
+height: 120px;
+background-color: white;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+#japan {
+    width: 60px;
+    height: 60px;
+    background-color: red;
+    border-radius: 50%;
+}
+
+#bar-red {
+    width: 40px;
+    height: 100%;
+    background-color: red;
+}
+
+#bar-green {
+    width: 40px;
+    height: 100%;
+    background-color: green;
+}
+
+#bar-white {
+    width: 40px;
+    height: 100%;
+    background-color: white;
+}
+
+#bar-blue {
+    width: 40px;
+    height: 100%;
+    background-color: blue;
+}
+
+#bar-white {
+ width: 40px;
+    height: 100%;
+    background-color: white;   
+}
+
+#bar-red {
+    width: 40px;
+    height: 100%;
+    background-color: red;
+}
+
+#bar-red-horizontal {
+    width: 120px;
+    height: 40%;
+    background-color: red;
+}
+
+#bar-yellow-horizontal {
+    width: 120px;
+    height: 40%;
+    background-color: yellow;
+}
+
+#bar-black-horizontal {
+    width: 120px;
+    height: 40%;
+    background-color: black;
+}
+
+.flag-horizontal {
+    display: flex;
+    flex-direction: column;
+}
